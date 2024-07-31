@@ -9,11 +9,11 @@ string solution(string rny_string) {
     // 입력된 문자열의 각 문자를 순회
     for(char ch : rny_string)
     {
-        if(ch == 'm') // 문자가 m인 경우 rn을 answer 문자열에 추가
+        if(ch == 'm') // 문자가 m인 경우 rn을 result 문자열에 추가
         {
             result += "rn";
         }
-        else // 문자가 m이 아닌 경우 원래 문자를 answer 문자열에 추가
+        else // 문자가 m이 아닌 경우 원래 문자를 result 문자열에 추가
         {
             result += ch;
         }
