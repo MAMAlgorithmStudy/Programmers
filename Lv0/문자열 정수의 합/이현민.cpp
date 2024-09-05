@@ -1,6 +1,4 @@
 #include <string>
-#include <vector>
-
 using namespace std;
 
 int solution(string num_str) {
@@ -8,11 +6,7 @@ int solution(string num_str) {
     
     for(int i = 0; i <num_str.length(); i++)
     {
-        answer += num_str[i] - '0';        
+        answer += num_str[i] - '0';
     }
-    //while(n > 0){
-    //    answer += n % 10;
-    //    n = n / 10;
-    //}
     return answer;
 }
