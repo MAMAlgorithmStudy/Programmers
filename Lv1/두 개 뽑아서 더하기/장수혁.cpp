@@ -29,8 +29,3 @@ vector<int> solution(vector<int> numbers)
 
     return answer;
 }
-
-    sort(answer.begin(), answer.end());
-
-    return answer; // 정렬된 결과를 반환
-}
