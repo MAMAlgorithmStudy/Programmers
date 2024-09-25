@@ -45,7 +45,7 @@ int solution(int n, int m, vector<int> section) {
         for(int i = 0; i < idx+1; i++)
         {
             // section 배열에서 맨 앞 구역을 반복해서 지웁니다.
-            section.erase(section.begin() + 0);
+            section.erase(section.begin());
         }
 
 
