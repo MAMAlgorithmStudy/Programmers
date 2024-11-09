@@ -5,29 +5,16 @@ using namespace std;
 
 string divideString(string s)
 {
-    int x = s[0];
+    char x = s[0];
     int notX = 0;
     int isX = 0;
     string temp = "";
     
     for(int i = 0; i <s.length(); i++)
-    {
-        if(isX != 0 && isX == notX)
-        {
-            temp+=s[i];
-        }
+        if(isX != 0 && isX == notX) temp+=s[i];
         else
-        {
-            if(s[i] == x)
-            {
-                isX++;
-            }
-            else
-            {
-                notX++;
-            }
-        }
-    }
+            if(s[i] == x) isX++;
+            else notX++;
     return temp;
 }
 
